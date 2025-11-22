@@ -1,0 +1,75 @@
+.concerts {
+  display: flex;
+  justify-content: center;
+  padding: 68px 0;
+}
+
+.concerts-wrapper {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.concert-title {
+  font-size: 24px;
+  color: white;
+  font-weight: 400;
+  margin: 0;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  padding-left: 14px;
+  background-color: #1b1e29;
+  border-bottom: 1px solid #333;
+}
+
+.concerts table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+
+.concerts th,
+.concerts td {
+  border-bottom: 1px solid #333;
+  padding: 0 14px;
+  text-align: left;
+}
+
+.concerts thead tr {
+  background-color: #1b1e29;
+  height: 56px;
+  font-size: 14px;
+}
+
+.concerts tbody tr {
+  background-color: #151821;
+  height: 56px;
+}
+
+.concerts tbody tr:nth-child(even) {
+  background-color: #151821;
+}
+
+.btn-secondary {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  width: 145px;
+  height: 39px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f82c56;
+  text-align: center;
+  line-height: 39px;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: rgba(248, 44, 86, 0.5);
+}

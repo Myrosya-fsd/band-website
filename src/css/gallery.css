@@ -1,0 +1,35 @@
+.gallery {
+  padding: 68px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gallery-title {
+  margin: 0 auto;
+  font-size: 34px;
+  margin-bottom: 54px;
+  max-width: 1170px;
+}
+
+.gallery-list {
+  display: flex;
+  justify-content: center;
+  gap: 96px;
+  text-align: left;
+}
+
+.gallery-item {
+  background-color: #151821;
+  border-radius: 10px;
+  max-width: 298px;
+  height: 262px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-item-title {
+  font-weight: 400;
+  margin-left: 10px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}

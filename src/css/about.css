@@ -1,0 +1,47 @@
+.about {
+  padding: 75px 0;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(45deg, #121c21, #1e1116);
+}
+
+.about-content {
+  max-width: 1170px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.overlap-text {
+  position: relative;
+  z-index: 2;
+  margin-right: -120px; /* значення підбирається — рухає текст на фото */
+  background: transparent;
+}
+
+.about-container {
+  max-width: 1170px;
+}
+
+.about-title {
+  font-size: 34px;
+  margin-bottom: 40px;
+}
+
+.about-title {
+  font-size: 34px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.about-content {
+  display: flex;
+  gap: 0;
+}
+
+.about-text {
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 0.04em;
+  margin-bottom: 20px;
+}
