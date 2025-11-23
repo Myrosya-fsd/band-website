@@ -22,8 +22,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/vanilla-app-template/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/index-CtlVdXJ8.css">
+    <script type="module" crossorigin src="/band-website/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/band-website/assets/index-sQzDFF0X.css">
   </head>
   <body>
     <header class="header">
@@ -65,55 +65,55 @@
   <a class="hero-btn" href="#concerts">Замовити квиток</a>
 </section>
 
-       <section id="concerts" class="concerts">
-        <div class="concerts-wrapper">
-          <h2 class="concert-title">Найближчі концерти</h2>
-          <table>
-            <thead>
-              <tr>
-                <th>Місто / Заклад</th>
-                <th>К-сть місць</th>
-                <th>Дата і час</th>
-                <th></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Київ — Docker-G Pub</td>
-                <td>250</td>
-                <td>25.10.2025, 19:00</td>
-                <td>
-                  <a class="btn-secondary" href="#contact"> Замовити квиток </a>
-                </td>
-              </tr>
-              <tr>
-                <td>Львів — FESTrepublic</td>
-                <td>400</td>
-                <td>01.11.2025, 20:00</td>
-                <td>
-                  <a class="btn-secondary" href="#contact"> Замовити квиток </a>
-                </td>
-              </tr>
-              <tr>
-                <td>Одеса — Зелений театр</td>
-                <td>700</td>
-                <td>09.11.2025, 19:30</td>
-                <td>
-                  <a class="btn-secondary" href="#contact"> Замовити квиток </a>
-                </td>
-              </tr>
-              <tr>
-                <td>Харків — ArtZavod</td>
-                <td>500</td>
-                <td>16.11.2025, 19:00</td>
-                <td>
-                  <a class="btn-secondary" href="#contact"> Замовити квиток </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
+      <section id="concerts" class="concerts">
+  <div class="concerts-wrapper">
+    <h2 class="concert-title">Найближчі концерти</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Місто / Заклад</th>
+          <th>К-сть місць</th>
+          <th>Дата і час</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+          <td>Київ — Docker-G Pub</td>
+          <td>250</td>
+          <td>25.10.2025, 19:00</td>
+          <td>
+            <a class="btn-secondary" href="#contact"> Замовити квиток </a>
+          </td>
+        </tr>
+        <tr>
+          <td>Львів — FESTrepublic</td>
+          <td>400</td>
+          <td>01.11.2025, 20:00</td>
+          <td>
+            <a class="btn-secondary" href="#contact"> Замовити квиток </a>
+          </td>
+        </tr>
+        <tr>
+          <td>Одеса — Зелений театр</td>
+          <td>700</td>
+          <td>09.11.2025, 19:30</td>
+          <td>
+            <a class="btn-secondary" href="#contact"> Замовити квиток </a>
+          </td>
+        </tr>
+        <tr>
+          <td>Харків — ArtZavod</td>
+          <td>500</td>
+          <td>16.11.2025, 19:00</td>
+          <td>
+            <a class="btn-secondary" href="#contact"> Замовити квиток </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
       <section class="gallery" id="gallery">
   <h2 class="gallery-title">Учасники гурту</h2>
   <ul class="gallery-list">
@@ -220,8 +220,16 @@
           placeholder="Розкажи про свої ідеї..."
         ></textarea>
       </label>
-      <button type="submit" class="btn" id="open-popup">Відправити</button>
+      <button type="submit" class="btn">Відправити</button>
     </form>
+
+    <div class="popup" id="popup">
+      <div class="popup-content">
+        <p id="popup-message"></p>
+        <button class="btn" id="popup-close">OK</button>
+      </div>
+    </div>
+
     <div class="right-column">
       <h3 class="right-column-title">Наше місце знаходження</h3>
       <iframe
