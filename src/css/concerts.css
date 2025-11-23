@@ -73,3 +73,115 @@
 .btn-secondary:focus {
   background-color: rgba(248, 44, 86, 0.5);
 }
+
+@media (max-width: 1440px) {
+  .concerts-wrapper {
+    width: 100%;
+    max-width: 980px;
+  }
+
+  .concert-title {
+    font-size: 22px;
+    height: 70px;
+  }
+
+  .concerts th,
+  .concerts td {
+    padding: 0 10px;
+  }
+
+  .btn-secondary {
+    width: 130px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .concerts-wrapper {
+    width: 100%;
+    max-width: 480px;
+  }
+
+  .concert-title {
+    font-size: 20px;
+    height: 60px;
+    padding-left: 10px;
+  }
+
+  .concerts th,
+  .concerts td {
+    font-size: 13px;
+    padding: 0 8px;
+  }
+
+  .btn-secondary {
+    width: 120px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 480px) {
+  .concerts-wrapper {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .concerts {
+    padding: 40px 0;
+  }
+
+  .concert-title {
+    font-size: 18px;
+    height: 50px;
+    padding-left: 8px;
+  }
+
+  .concerts thead tr {
+    display: none;
+  }
+
+  .concerts tbody tr {
+    margin-bottom: 15px;
+    background-color: #1b1e29;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .concerts tbody td {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 10px;
+    font-size: 12px;
+    border: none;
+  }
+
+  .concerts tbody td::before {
+    content: attr(data-label);
+    font-weight: 700;
+    color: #aaa;
+    margin-right: 10px;
+  }
+
+  .btn-secondary {
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+    margin-top: 8px;
+  }
+
+  .concerts table {
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  .concerts td,
+  .concerts th {
+    font-size: 11px;
+    padding: 6px;
+    word-break: break-word;
+  }
+}

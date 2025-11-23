@@ -33,3 +33,47 @@
   margin-top: 16px;
   margin-bottom: 16px;
 }
+
+@media (max-width: 1440px) {
+  .gallery-title {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  .gallery-list {
+    gap: 60px;
+  }
+
+  .gallery-item {
+    width: 260px;
+    height: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .gallery {
+    padding: 40px 0;
+  }
+
+  .gallery-title {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .gallery-list {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .gallery-item {
+    width: 100%;
+    max-width: 330px;
+    height: auto;
+  }
+
+  .gallery-item-title {
+    font-size: 16px;
+    margin-left: 8px;
+  }
+}

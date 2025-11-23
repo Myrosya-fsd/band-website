@@ -1,6 +1,6 @@
 .hero {
   max-width: 1920px;
-  height: 596px;
+  height: 100%;
   padding: 125px 360px 116px;
   background-image: url(../img/hero.png);
   background-repeat: no-repeat;
@@ -62,4 +62,29 @@
 
 .hero-span {
   color: #4dd3fd;
+}
+
+@media (max-width: 1440px) {
+  .hero {
+    padding: 100px 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    padding: 100px 20px 100px 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 50px 20px 50px 20px;
+    text-align: center;
+  }
+
+  .hero-text-top {
+    text-align: left;
+  }
 }

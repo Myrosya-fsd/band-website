@@ -13,6 +13,7 @@
 .header-navigation {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-menu-list {
@@ -20,4 +21,57 @@
   gap: 28px;
   font-weight: 500;
   font-size: 18px;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #fddd14;
+}
+
+@media (max-width: 1440px) {
+  .header {
+    padding: 22px 120px;
+  }
+
+  .header-menu-list {
+    gap: 22px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 20px 40px;
+  }
+
+  .header-menu-list {
+    gap: 16px;
+    font-size: 16px;
+  }
+
+  .header-logo {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 16px 20px;
+  }
+
+  .header-navigation {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .header-menu-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    font-size: 16px;
+  }
+
+  .header-menu-item {
+    flex: 1 1 auto;
+    text-align: center;
+  }
 }

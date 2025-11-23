@@ -20,8 +20,16 @@
           placeholder="Розкажи про свої ідеї..."
         ></textarea>
       </label>
-      <button type="submit" class="btn" id="open-popup">Відправити</button>
+      <button type="submit" class="btn">Відправити</button>
     </form>
+
+    <div class="popup" id="popup">
+      <div class="popup-content">
+        <p id="popup-message"></p>
+        <button class="btn" id="popup-close">OK</button>
+      </div>
+    </div>
+
     <div class="right-column">
       <h3 class="right-column-title">Наше місце знаходження</h3>
       <iframe
