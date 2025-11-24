@@ -138,6 +138,7 @@
     font-size: 18px;
     height: 50px;
     padding-left: 8px;
+    justify-content: center;
   }
 
   .concerts thead tr {
@@ -153,7 +154,8 @@
 
   .concerts tbody td {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     padding: 6px 10px;
     font-size: 12px;
     border: none;

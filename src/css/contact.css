@@ -21,8 +21,8 @@
 }
 .block {
   display: flex;
+  justify-content: center;
   box-sizing: border-box;
-  margin: 0 auto;
 }
 
 .contact-form {
@@ -116,6 +116,7 @@ input:valid {
   max-width: 560px;
   width: 100%;
   box-sizing: border-box;
+  flex-shrink: 0;
 }
 
 .right-column-title {
@@ -200,6 +201,7 @@ iframe {
     flex-direction: column !important;
     align-items: center;
     gap: 40px;
+    margin: 0 auto;
   }
 
   .contact-form {
