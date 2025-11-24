@@ -45,7 +45,7 @@
   }
 
   .gallery-item {
-    width: 260px;
+    width: 100%;
     height: auto;
   }
 }
@@ -61,6 +61,10 @@
   }
 
   .gallery-list {
+    gap: 0;
+  }
+
+  .gallery-list {
     flex-direction: column;
     gap: 24px;
     align-items: center;
@@ -68,7 +72,7 @@
 
   .gallery-item {
     width: 100%;
-    max-width: 330px;
+    justify-content: center;
     height: auto;
   }
 
